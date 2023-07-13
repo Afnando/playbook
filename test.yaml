@@ -1,10 +1,8 @@
 - name: CloudEngine command test
-  hosts: officeSwitch
-  connection: network.cli
+  hosts: Office_Switch
   gather_facts: no
 
   tasks:
   - name: "Run display version on remote devices"
     community.network.ce_command:
       commands: display version
-
