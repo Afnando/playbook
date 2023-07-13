@@ -1,5 +1,5 @@
 - name: CloudEngine command test
-  hosts: Office_Switch
+  hosts: officeswitch
   gather_facts: no
 
   tasks:
