@@ -1,6 +1,8 @@
+
 - name: CloudEngine command test
-  hosts: officeswitch
-  gather_facts: no
+  hosts: huawei
+  vars:
+    ansible_host_key_checking: false
 
   tasks:
   - name: "Run display version on remote devices"
